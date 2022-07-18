@@ -1,6 +1,14 @@
 @media only screen and (max-width: 600px) {
     nav h3 {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    nav li {
+        font-size: 14px;
+    }
+
+    nav li:hover {
+        font-size: 16px;
     }
 
     .hero {
@@ -28,11 +36,30 @@
         grid-template-columns: 1fr;
         grid-gap: 50px;
         text-align: center;
+        padding: 30px;
     }
 
     .card {
         margin: 0 auto;
-        width: 400px;
-        height: 700px;
+        width: 350px;
+        height: 480px;
+    }
+
+    .card img {
+        height: 210px;
+    }
+
+    .card h2 {
+        margin: 20px 0 10px 0;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .card button {
+        width: 30%;
+        padding: 10px;
+        font-size: 14px;
     }
 }
