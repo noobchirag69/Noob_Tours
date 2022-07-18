@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left, rgb(233, 228, 176), rgb(255, 202, 183));
+    font-family: 'Noto Serif', serif;
+}
+
+nav {
+    display: flex;
+    background: rgb(200, 200, 200);
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    color: green;
+}
+
+nav li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav li:hover {
+    font-size: 20px;
+}
+
+nav h3 {
+    font-size: 32px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.hero {
+    margin-top: 60px;
+    padding: 60px 100px 60px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-banner img {
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
+    border-radius: 50px;
+    width: 100%;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 72px;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px rgb(100, 100, 100);
+}
+
+.services {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px rgb(100, 100, 100);
+    margin-bottom: 30px;
+}
+
+.tourbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding-bottom: 50px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
+    width: 500px;
+    margin: 0 30px 0 30px;
+    border-radius: 20px;
+}
+
+.card img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 20px 0 20px 0;
+}
+
+.card p {
+    margin: 0 20px 20px 20px;
+}
+
+.card button {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
+    border-radius: 7px;
+    background-color: green;
+    width: 20%;
+    font-weight: bold;
+}
+
+.card button:hover {
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+}

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    nav h3 {
+        font-size: 24px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 56px;
+        text-shadow: none;
+    }
+
+    .hero-banner img {
+        border-radius: 10px;
+    }
+
+    .tourbox {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        text-align: center;
+    }
+
+    .card {
+        margin: 0 auto;
+        width: 400px;
+        height: 700px;
+    }
+}
